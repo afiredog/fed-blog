@@ -3,8 +3,8 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "zh-CN",
-  base: "/my-blog/",
-  head: [["link", { rel: "icon", href: "/my-blog/favicon.ico" }]],
+  base: "/fed-blog/",
+  head: [["link", { rel: "icon", href: "/fed-blog/favicon.ico" }]],
   title: "打工仔的博客",
   description: "一个技术记录的网站",
   themeConfig: {
