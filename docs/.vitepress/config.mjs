@@ -15,23 +15,22 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      // { text: '首页', link: '/' },
-      { text: "前端面试题", link: "/qdmst/JS-001.md" },
+      { text: '首页', link: '/' },
+      {
+        text: "前端面试题",
+        items: [
+          {
+            text: "JavaScript",
+            link: "/qdmst/JS-001.md",
+          },
+        ],
+      },
     ],
-
-    // sidebar: [
-    //   {
-    //     text: '前端面试题',
-    //     items: [
-    //       { text: '我的东方大厦防守打法撒旦法阿萨德阿萨德阿萨德速度山大', link: '/qdmst/JS-001.md' },
-    //       // { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
     sidebar: {
       "/qdmst/": [
         {
-          text: "前端面试题",
+          text: "JavaScript",
+          collapsed: true,
           items: [
             {
               text: "我的东方大厦防守打法撒旦法阿萨德阿萨德阿萨德速度山大",
@@ -42,7 +41,10 @@ export default defineConfig({
         },
       ],
     },
-
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2023-present 打工仔'
+    }
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]

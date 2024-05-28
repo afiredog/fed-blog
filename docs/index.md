@@ -10,19 +10,23 @@ hero:
     src: /bg.svg
     alt: blog
   actions:
-    - theme: brand
-      text: 前端面试题
-      link: /qdmst/JS-001.md
+#    - theme: brand
+#      text: 前端面试题
+#      link: /qdmst/JS-001.md
 #    - theme: alt
 #      text: API Examples
 #      link: /api-examples
 
-#features:
-#  - title: Feature A
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#  - title: Feature B
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#  - title: Feature C
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: 前端面试题系列
+    details: 收集记录一些常见的面试题目
+    linkText: 查看详情
+    link: /qdmst/JS-001.md
+  - title: 微前端系列
+    details: 微前端系列
+    linkText: 敬请期待
+  - title: 项目处理方案系列
+    details: 项目处理方案系列
+    linkText: 敬请期待
 ---
 
