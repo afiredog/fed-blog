@@ -8,6 +8,7 @@ export default defineConfig({
   title: "打工仔的博客",
   description: "一个技术记录的网站",
   themeConfig: {
+    outlineTitle: "当前页面",
     logo: "/bg.svg",
     siteTitle: "打工仔的博客",
     search: {
@@ -21,30 +22,35 @@ export default defineConfig({
         items: [
           {
             text: "JavaScript",
-            link: "/qdmst/JS-001.md",
+            link: "/fed-interview/js/js-1",
           },
         ],
       },
     ],
     sidebar: {
-      "/qdmst/": [
+      "/fed-interview/": [
         {
           text: "JavaScript",
           collapsed: true,
           items: [
             {
-              text: "我的东方大厦防守打法撒旦法阿萨德阿萨德阿萨德速度山大",
-              link: "/qdmst/JS-001.md",
+              text: "JavaScript有哪些数据类型，它们的区别？",
+              link: "/fed-interview/js/js-1",
             },
-            { text: "Runtime API Examples", link: "/qdmst/JS-002.md" },
+            {
+              text: "JavaScript的数据结构有哪些？",
+              link: "/fed-interview/js/js-2",
+            },
           ],
-        },
-      ],
+        }
+      ]
     },
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2023-present 打工仔'
-    }
+    },
+    outline: "deep",
+    docFooter: { prev: '上一篇', next: '下一篇' }
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]

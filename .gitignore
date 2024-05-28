@@ -1,5 +1,5 @@
 # IntelliJ project files
-.idea/**
+/.idea/**
 
 # node
 /node_modules/**
@@ -9,4 +9,4 @@
 /docs/.vitepress/cache/**
 
 # vscode
-.history/**
+/.history/**
