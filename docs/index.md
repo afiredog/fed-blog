@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "干五休二打工仔的博客"
-  text: "一个技术记录的网站"
-  tagline: 好好学习，天天向上
+  name: "一个技术记录の网站"
+  text: "好好学习\n打工仔の博客"
+  tagline: 前端入门到放弃
   image:
     src: /bg.svg
     alt: blog

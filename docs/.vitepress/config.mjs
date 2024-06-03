@@ -5,12 +5,12 @@ export default defineConfig({
   lang: "zh-CN",
   base: "/fed-blog/",
   head: [["link", { rel: "icon", href: "/fed-blog/favicon.ico" }]],
-  title: "打工仔的博客",
-  description: "一个技术记录的网站",
+  title: "打工仔の博客",
+  description: "一个技术记录の网站",
   themeConfig: {
     outlineTitle: "当前页面",
     logo: "/bg.svg",
-    siteTitle: "打工仔的博客",
+    siteTitle: "打工仔の博客",
     search: {
       provider: "local",
     },
