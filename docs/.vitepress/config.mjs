@@ -1,4 +1,6 @@
 import { defineConfig } from "vitepress";
+import fedInterview from "./config/fed-interview.mjs";
+import leetcode from './config/leetcode.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -17,33 +19,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      {
-        text: "前端面试题",
-        items: [
-          {
-            text: "JavaScript",
-            link: "/fed-interview/js/js-1",
-          },
-        ],
-      },
+      ...fedInterview.nav,
+      ...leetcode.nav
     ],
     sidebar: {
-      "/fed-interview/": [
-        {
-          text: "JavaScript",
-          collapsed: true,
-          items: [
-            {
-              text: "JavaScript有哪些数据类型，它们的区别？",
-              link: "/fed-interview/js/js-1",
-            },
-            {
-              text: "JavaScript的数据结构有哪些？",
-              link: "/fed-interview/js/js-2",
-            },
-          ],
-        }
-      ]
+      ...fedInterview.sidebar,
+      ...leetcode.sidebar
     },
     footer: {
       message: 'Released under the MIT License.',

@@ -22,6 +22,10 @@ features:
     details: 收集记录一些常见的面试题目
     linkText: 查看详情
     link: /fed-interview/js/js-1
+  - title: LeetCode 打卡系列
+    details: 坚持每天 Leetcode 打卡
+    linkText: 查看详情
+    link: /leetcode/leetcode-1
   - title: 微前端系列
     details: 微前端系列
     linkText: 敬请期待
