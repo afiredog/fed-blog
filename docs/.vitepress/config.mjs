@@ -18,7 +18,6 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首页', link: '/' },
       ...fedInterview.nav,
       ...leetcode.nav
     ],
