@@ -25,6 +25,10 @@ export default {
             text: '【2】两数相加',
             link: '/leetcode/leetcode-2',
           },
+          {
+            text: '【3】无重复字符的最长子串',
+            link: '/leetcode/leetcode-3',
+          },
         ],
       },
 
